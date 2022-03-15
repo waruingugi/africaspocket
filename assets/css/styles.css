@@ -9,12 +9,12 @@
 }
 
 #intro {
-  height: 100vh;
+  /*height: 90vh;*/
 }
 
 @media (min-width: 576px) {
   #intro {
-    height: 65vh;
+    height: 60vh;
   }
 }
 
