@@ -1,0 +1,113 @@
+#navbar-logo {
+  width: 33%;
+}
+
+@media (min-width: 992px) {
+  #navbar-logo {
+    width: 15%;
+  }
+}
+
+#intro {
+  height: 100vh;
+}
+
+@media (min-width: 576px) {
+  #intro {
+    height: 65vh;
+  }
+}
+
+#intro-heading {
+  color: #083e5b;
+  line-height: 38px;
+  font-family: 'Playfair Display', serif;
+}
+
+@media (min-width: 992px) {
+  #intro-heading {
+    font-size: 2.5rem;
+    color: #083e5b;
+    line-height: 54px;
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+#sub-heading {
+  color: #083e5b;
+  margin: 25px 0 25px;
+}
+
+#top-section {
+  background-image: url("../../assets/img/header_bg_small.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  #top-section {
+    background-image: url("../../assets/img/header_bg_large.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 990px) {
+  #top-section {
+    background-image: url("../../assets/img/header_bg_medium.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.btn-preffered {
+  border: 2px #fcc455;
+  background-color: #fcc455;
+  white-space: normal;
+  color: #083e5b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  -webkit-box-shadow: 0px 10px 35px -5px rgba(112,144,176,0.7);
+  -moz-box-shadow: 0px 10px 35px -5px rgba(112,144,176,0.7);
+  box-shadow: 0px 10px 35px -5px rgba(112,144,176,0.7);
+  transition: all .3s ease-in-out;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+}
+
+.btn-preferred:hover {
+  background-color: #D20D42;
+}
+
+.btn-preffered:hover {
+  border: 2px #fcc455;
+  color: #083e5b;
+  background-color: #fcc455;
+  transform: scale(1.05);
+}
+
+.btn-preffered:focus {
+  border: 2px #fcc455;
+  color: #083e5b;
+  background-color: #fcc455;
+}
+
+#portfolio {
+  background-color: rgba(147,197,237,0.1);
+}
+
+#portfolio .img-thumbnail {
+  background-color: rgba(147,197,237,0);
+}
+
+#about-us-img {
+  width: 100%;
+}
+
