@@ -80,7 +80,7 @@ body {
   border: 2px #fcc455;
   color: #083e5b;
   background-color: #fcc455;
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .btn-preffered:focus {
