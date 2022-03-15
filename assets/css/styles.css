@@ -8,16 +8,6 @@
   }
 }
 
-#intro {
-  /*height: 90vh;*/
-}
-
-@media (min-width: 576px) {
-  #intro {
-    height: 60vh;
-  }
-}
-
 #intro-heading {
   color: #083e5b;
   line-height: 38px;
